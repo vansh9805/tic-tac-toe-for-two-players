@@ -119,6 +119,6 @@ int main() {
 
     print_board();
     print_winner(winner);
-
+     printf("Thanks for playing");
     return 0;
 }
