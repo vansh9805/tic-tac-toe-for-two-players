@@ -25,7 +25,7 @@ int check_freeSpaces() {
 void player1_Move() {
     int x, y;
     do {
-         print("Player's 1 turn");
+         printf("Player's 1 turn\n");
         printf("Enter row (1-3): ");
         scanf("%d", &x);
         x--;
@@ -45,7 +45,7 @@ void player1_Move() {
 void player2_Move() {
     int x, y;
     do {
-         print("Player's 2 turn");
+         printf("Player's 2 turn\n");
         printf("Enter row (1-3): ");
         scanf("%d", &x);
         x--;
